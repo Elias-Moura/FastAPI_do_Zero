@@ -22,6 +22,10 @@ class UserRepository:
         if user_id > len(self.data_base) or user_id < 1:
             raise HTTPException(status_code=404, detail='User not found.')
 
+    def get_by_id(self, user_id: int) -> UserDB:
+        self.__not_found(user_id)
+        return self.data_base[user_id - 1]
+
     def update(self, user_id: int, user: UserSchema):
         self.__not_found(user_id)
 
@@ -60,6 +64,11 @@ def create_user(user: UserSchema):
 @app.get('/users', status_code=200, response_model=UserList)
 def get_users():
     return {'users': user_repository.get_all()}
+
+
+@app.get('/users/{user_id}', status_code=200, response_model=UserPublic)
+def get_user(user_id: int):
+    return user_repository.get_by_id(user_id)
 
 
 @app.put('/users/{user_id}', response_model=UserPublic)

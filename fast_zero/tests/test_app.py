@@ -61,6 +61,19 @@ def test_update_user(client):
     }
 
 
+def test_get_user_by_id(client):
+    response = client.get(
+        'users/1',
+    )
+
+    assert response.status_code == 200
+    assert response.json() == {
+        'id': 1,
+        'user_name': 'bob',
+        'email': 'bob@example.com',
+    }
+
+
 def test_uptade_user_with_invalid_id(client):
     response = client.put(
         '/users/-1',

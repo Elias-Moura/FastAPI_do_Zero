@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Feat: Exercício com TDD de retornar um html.">
-      <change afterPath="$PROJECT_DIR$/fast_zero/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/fast_zero/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/fast_zero/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_zero/tests/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/tests/test_app.py" afterDir="false" />
-    </list>
+    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Feat: Implementando rotas do CRUD." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710949662003</updated>
       <workItem from="1710949664040" duration="5214000" />
-      <workItem from="1711032207758" duration="9161000" />
+      <workItem from="1711032207758" duration="9537000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração inicial do projeto.">
       <option name="closed" value="true" />
@@ -117,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710955811333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat: Implementando rotas do CRUD.">
+      <option name="closed" value="true" />
+      <created>1711046170811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046170811</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuração inicial do projeto." />
     <MESSAGE value="Feat: Exercício com TDD de retornar um html." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Exercício com TDD de retornar um html." />
+    <MESSAGE value="Feat: Implementando rotas do CRUD." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Implementando rotas do CRUD." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -138,5 +138,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FastAPI$.coverage" NAME=" Coverage Results" MODIFIED="1711045540730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fast_zero/tests" />
   </component>
 </project>
