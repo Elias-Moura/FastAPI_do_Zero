@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Configuração inicial do projeto.">
-      <change afterPath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" afterDir="false" />
+    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Feat: Exercício com TDD de retornar um html.">
+      <change afterPath="$PROJECT_DIR$/fast_zero/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fast_zero/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fast_zero/fast_zero/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/fast_zero/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/tests/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/tests/test_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dxVLeGfolNtPDFJnxru09cXydt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_app.test_delete_user.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -55,6 +60,29 @@
       <recent name="$PROJECT_DIR$/fast_zero/fast_zero" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_app.test_delete_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fast_zero/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_app.test_delete_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_app.test_delete_user" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710949662003</updated>
-      <workItem from="1710949664040" duration="5047000" />
+      <workItem from="1710949664040" duration="5214000" />
+      <workItem from="1711032207758" duration="9161000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração inicial do projeto.">
       <option name="closed" value="true" />
@@ -80,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710953246513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat: Exercício com TDD de retornar um html.">
+      <option name="closed" value="true" />
+      <created>1710955811333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710955811333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +125,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuração inicial do projeto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração inicial do projeto." />
+    <MESSAGE value="Feat: Exercício com TDD de retornar um html." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Exercício com TDD de retornar um html." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fast_zero/fast_zero/app.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
