@@ -16,7 +16,7 @@ def test_create_user(client):
     response = client.post(
         '/users',
         json={
-            'user_name': 'alice',
+            'username': 'alice',
             'email': 'alice@example.com',
             'password': 'secret',
         },
@@ -24,7 +24,7 @@ def test_create_user(client):
 
     assert response.status_code == 201
     assert response.json() == {
-        'user_name': 'alice',
+        'username': 'alice',
         'email': 'alice@example.com',
         'id': 1,
     }
@@ -36,7 +36,7 @@ def test_read_users(client):
     assert response.json() == {
         'users': [
             {
-                'user_name': 'alice',
+                'username': 'alice',
                 'email': 'alice@example.com',
                 'id': 1,
             }
@@ -48,14 +48,14 @@ def test_update_user(client):
     response = client.put(
         '/users/1',
         json={
-            'user_name': 'bob',
+            'username': 'bob',
             'email': 'bob@example.com',
             'password': 'xpto1234',
         },
     )
     assert response.status_code == 200
     assert response.json() == {
-        'user_name': 'bob',
+        'username': 'bob',
         'email': 'bob@example.com',
         'id': 1,
     }
@@ -69,7 +69,7 @@ def test_get_user_by_id(client):
     assert response.status_code == 200
     assert response.json() == {
         'id': 1,
-        'user_name': 'bob',
+        'username': 'bob',
         'email': 'bob@example.com',
     }
 
@@ -78,7 +78,7 @@ def test_uptade_user_with_invalid_id(client):
     response = client.put(
         '/users/-1',
         json={
-            'user_name': 'bob',
+            'username': 'bob',
             'email': 'bob@example.com',
             'password': 'xpto1234',
         },

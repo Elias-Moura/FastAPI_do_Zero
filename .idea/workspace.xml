@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Feat: Implementando rotas do CRUD." />
+    <list default="true" id="5e18b704-977e-4610-9495-1919065a0982" name="Changes" comment="Feat: Rota para buscar um usuário a partir de um id.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast_zero/.env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast_zero/fast_zero/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast_zero/fast_zero/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast_zero/tests/test_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/fast_zero/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_zero/tests/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_zero/tests/test_app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Elias-Moura&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ad587db3-8c01-4ceb-90c6-17cb1bb68f25" />
+        <option name="url" value="https://github.com/Elias-Moura/FastAPI_do_Zero.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,26 +59,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_app.test_delete_user.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_app.test_delete_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_db.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fast_zero/fast_zero" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_db.test_create_user">
     <configuration name="Python tests for test_app.test_delete_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FastAPI" />
       <option name="ENV_FILES" value="" />
@@ -68,8 +96,25 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_db.test_create_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fast_zero/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_db.test_create_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_db.test_create_user" />
         <item itemvalue="Python tests.Python tests for test_app.test_delete_user" />
       </list>
     </recent_temporary>
@@ -90,7 +135,8 @@
       <option name="presentableId" value="Default" />
       <updated>1710949662003</updated>
       <workItem from="1710949664040" duration="5214000" />
-      <workItem from="1711032207758" duration="9537000" />
+      <workItem from="1711032207758" duration="14056000" />
+      <workItem from="1711119408630" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração inicial do projeto.">
       <option name="closed" value="true" />
@@ -116,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711046170811</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feat: Rota para buscar um usuário a partir de um id.">
+      <option name="closed" value="true" />
+      <created>1711046542587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046542587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,20 +180,10 @@
     <MESSAGE value="Configuração inicial do projeto." />
     <MESSAGE value="Feat: Exercício com TDD de retornar um html." />
     <MESSAGE value="Feat: Implementando rotas do CRUD." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Implementando rotas do CRUD." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fast_zero/fast_zero/app.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Feat: Rota para buscar um usuário a partir de um id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Rota para buscar um usuário a partir de um id." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FastAPI$.coverage" NAME=" Coverage Results" MODIFIED="1711045540730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fast_zero/tests" />
+    <SUITE FILE_PATH="coverage/FastAPI$.coverage" NAME=" Coverage Results" MODIFIED="1711052123602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fast_zero/tests" />
   </component>
 </project>
